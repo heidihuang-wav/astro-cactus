@@ -52,6 +52,7 @@ export default {
 				// Add any custom fonts here
 				sans: [...fontFamily.sans],
 				serif: [...fontFamily.serif],
+				inter: ['Inter', 'sans-serif'],
 			},
 			transitionProperty: {
 				height: "height",

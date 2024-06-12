@@ -31,16 +31,21 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 		</div>
 		<div style={{ flexShrink: 0 }}>
 			<div style={{ width: '175px', height: '175px', overflow: 'hidden', borderRadius: '50%' }}>
-			  <img src="/src/assets/hero-img.jpg" style={{ width: '110%', height: '110%', objectFit: 'cover' }} />
+			  <img src='hero-img.jpg' style={{ width: '110%', height: '110%', objectFit: 'cover' }} />
 			</div>
 		</div>
 	  </section>
 
 	  <section class="mt-16">
-		<h2 class="title mb-4 text-xl">Research</h2>
-		<p class="mb-4">I am interested in</p>
-		<h3 class="title mb-4 text-lg">Publications</h3>
-		<dl class="space-y-4">
+		<h2 class="title mb-4 text-2xl">Research</h2>
+		<p class="body-link mb-4">I am an undergraduate researcher at the <a href="https://www.rosswilsonlab.org/">Wilson Lab</a>, part of the <a href="https://innovativegenomics.org/">Innovative Genomics Institute (IGI)</a>. My <a href="https://research.berkeley.edu/surf-fellows/heidi-huang/">senior honors thesis</a> research, funded by the UC Berkeley Summer Undergraduate Research Fellowship (SURF), is on optimizing CRISPR RNP formulations for enhanced genome editing in the brain.</p> 
+		
+		<p class="body-link mb-4">Previously, I was a member of the <a href="https://knightlab.ucsf.edu/">Knight Lab</a> at UCSF, where I worked on a project that used neural recordings to observe how the brain's caudal nucleus of the solitary tract responds to ingestive feedback in awake animals, revealing that taste and GI stretch signals can suppress appetite and promote satiety. </p> 
+
+		<p class="body-link mb-4">In high school, I got my first taste of wet lab research in the <a href="https://ls.cgu.edu.tw/p/412-1073-1558.php">Chromatin Biology & Functional Epigenomics Laboratory</a> at Chang Gung University in Taiwan.</p>
+
+		<h3 class="title mb-4 text-xl">Publications</h3>
+		<dl class="space-y-4 mb-4">
 			{cactusTech.map(({ title, href, authors, journal, year, desc }, index) => (
 			<div class="flex flex-col gap-2" key={index}>
 			  <dt>
@@ -51,8 +56,7 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 				</span>
 			  </dt>
 			  <dd>
-				<p class="text-base"><em><strong>{journal}</strong></em> {year}</p>
-				<br/>
+				<p class="text-base mb-2"><em><strong>{journal}</strong></em> {year}</p>
 				<p>
 				  {authors.split(', ').map((author, index) => (
 					<span key={index} class={author === 'Heidi Huang' ? 'text-yellow-600 font-bold' : ''}>
@@ -67,14 +71,21 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 		  ))}		  
 		</dl>
 	  </section>
-	  
-	  
-	  
-	  
-	  
+
+		<h3 class="title mb-4 text-xl">Mentors</h3>
+			<p class="body-link mb-4">I'm deeply grateful for the following mentors who have supported me, even when I had little to no prior lab experience at the start of my journey.
+				<ul>
+					<li>• PI - Prof. Ross Wilson @ UC Berkeley / IGI</li>
+					<li>• Postdoc mentor - Christopher Baehr, PhD @ UC Berkeley / IGI
+					<li>• PI - Dr. Zachary A. Knight @ UCSF </li>
+					<li>• Grad student mentor - Truong Ly @ UCSF</li>
+					<li>• PI - Dr. Bertrand Tan @ Chang Gung University </li>
+					<li></li>
+				</ul>
+			</p>
 
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
+		<h2 class="title mb-4 text-2xl">Recent Writing</h2>
 		<ul class="space-y-4">
 			{
 				allPostsByDate.map((p) => (

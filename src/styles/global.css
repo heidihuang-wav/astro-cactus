@@ -29,7 +29,21 @@
 		@apply scroll-smooth;
 	}
 
+	h1, h2, h3, h4, h5, h6 {
+		@apply font-mono;
+	  }	
+
 	body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-inter text-base font-normal text-textColor antialiased;
 	}
+
+	.body-link a {
+		@apply text-blue-500;
+	}
+
+	.body-link a:hover {
+		@apply underline;
+	}
+
+
 }
