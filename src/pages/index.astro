@@ -23,7 +23,7 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 <PageLayout meta={{ title: "Home" }}>
 	<section style={{ display: 'flex', alignItems: 'center' }}>
 		<div style={{ flex: 1, marginRight: '20px'  }}>
-		  <h1 class="title mb-6">Howdy, Heidi here.</h1>
+		  <h1 class="text-[1.5rem] leading-[2rem] font-semibold mb-6 rainbow-text">Howdy, Heidi here.</h1>
 		  <p class="mb-4">
 			Hi, I'm Heidi, an undergrad at UC Berkeley studying molecular and cell biology with an emphasis in molecular therapeutics. I'm interested in improving non-viral CRISPR delivery and gene therapies. 
 		  </p>
@@ -73,7 +73,7 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 	  </section>
 
 		<h3 class="title mb-4 text-xl">Mentors</h3>
-			<p class="body-link mb-4">I'm deeply grateful for the following mentors who have supported me at different points in my journey.
+			<p class="body-link mb-4">I'm deeply grateful for the following mentors who have supported me. I wouldn't be where I am today without them taking a chance on me at different points in my journey.
 				<ul>
 					<li>• PI - Prof. Ross Wilson @ UC Berkeley / IGI</li>
 					<li>• Postdoc mentor - Christopher Baehr, PhD @ UC Berkeley / IGI
@@ -85,7 +85,7 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 			</p>
 
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-2xl">Recent Writing</h2>
+		<h2 class="title mb-4 text-2xl">Recent Posts</h2>
 		<ul class="space-y-4">
 			{
 				allPostsByDate.map((p) => (
