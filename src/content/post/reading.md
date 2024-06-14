@@ -1,8 +1,8 @@
 ---
 title: "On reading"
-description: "Why I think reading is pretty darn cool and why I read"
+description: "Why I think reading is pretty cool and why I read"
 publishDate: "June 11 2024"
-tags: ["test"]
+tags: ["opinion"]
 ---
 
 ## My journey as a reader 
