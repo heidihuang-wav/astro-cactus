@@ -7,22 +7,22 @@
 	:root[data-theme="light"] {
 		color-scheme: light;
 		/* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
-		--theme-bg: 0deg 0% 98%;
-		--theme-link: 172deg 18% 41%;
-		--theme-text: 203deg 11% 15%;
-		--theme-accent: 351deg 66% 48%;
-		--theme-accent-2: 0deg 0% 7%;
-		--theme-quote: 351deg 66% 48%;
+		--theme-bg: hsl(0, 0%, 98%);
+		--theme-link: hsl(172, 18%, 41%);
+		--theme-text: hsl(203, 11%, 15%);
+		--theme-accent: hsl(351, 66%, 48%);
+		--theme-accent-2: hsl(0, 0%, 7%);
+		--theme-quote: hsl(351, 66%, 48%);
 	}
 
 	:root[data-theme="dark"] {
 		color-scheme: dark;
-		--theme-bg: 210deg 6% 12%;
-		--theme-link: 330deg 49% 67%;
-		--theme-text: 220deg 3% 79%;
-		--theme-accent: 159deg 64% 45%;
-		--theme-accent-2: 0deg 0% 93%;
-		--theme-quote: 102deg 100% 86%;
+		--theme-bg: hsl(210, 6%, 12%);
+		--theme-link: hsl(330, 49%, 67%);
+		--theme-text: hsl(220, 3%, 79%);
+		--theme-accent: hsl(159, 64%, 45%);
+		--theme-accent-2: hsl(0, 0%, 93%);
+		--theme-quote: hsl(102, 100%, 86%);
 	}
 
 	html {
@@ -31,10 +31,12 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		@apply font-mono;
-	  }	
+	}
 
 	body {
 		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-inter text-base font-normal text-textColor antialiased;
+		background-color: var(--theme-bg);
+		color: var(--theme-text);
 	}
 
 	.body-link a {
@@ -45,11 +47,22 @@
 		@apply underline;
 	}
 
+	.button {
+		@apply inline-flex items-center justify-center rounded-md border border-transparent px-4 py-2 text-base font-medium transition focus:outline-none;
+		background-color: var(--theme-accent);
+		color: var(--theme-bg);
+	}
+
+	.button:hover {
+		background-color: var(--theme-accent-2);
+		color: var(--theme-link);
+	}
+
 	@keyframes rainbow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
+		0% { background-position: 0% 50%; }
+		50% { background-position: 100% 50%; }
+		100% { background-position: 0% 50%; }
+	}
 
 	.rainbow-text {
 		background: linear-gradient(to right, #FA8072, #a855f7, #3b82f6, #eab308);

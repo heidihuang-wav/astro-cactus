@@ -1,0 +1,26 @@
+---
+import ContactForm from '../components/contact/ContactForm.astro';
+import PageLayout from "@/layouts/Base.astro";
+
+
+const meta = {
+	description: "This is the best way to contact me! Please reach out with any questions.",
+	title: "Contact",
+};
+---
+
+<PageLayout meta={meta}>
+   
+	<div class="space-y-6">
+		<h1 class="title mb-4 text-2xl">About</h1>
+		<p class="body-link mb-4">
+			Contact forms can be a pain, but I promise this one is the best way to reach me! Fill it out, and your message + email address goes straight to my inbox. 
+		</p>
+		<p class="body-link mb-4">
+			If you'd like to chat, don't hesitate to reach out! I enjoy meeting new people and getting to know them (in-person or online). I'm currently based in the SF Bay Area and will be here until at least May 2025. Always happy to discuss music, science, books, podcasts, and more. 
+		</p>
+	</div>
+	<div class="flex-col mt-8">
+		<ContactForm />
+	</div>
+</PageLayout>
