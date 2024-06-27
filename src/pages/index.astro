@@ -12,7 +12,7 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 	{
 		title: "Sequential appetite suppression by oral and visceral feedback to the brainstem",
 		href: "https://www.nature.com/articles/s41586-023-06758-2",
-		authors: "Truong Ly, Jun Y. Oh, Nilla Sivakumar, Sarah Shehata, Naymalis La Santa Medina, Heidi Huang, Zhengya Liu, Wendy Fang, Chris Barnes, Naz Dundar, Brooke C. Jarvie, Anagh Ravi, Olivia K. Barnhill, Chelsea Li, Grace R. Lee, Jaewon Choi, Heeun Jang & Zachary A. Knight",
+		authors: "T Ly, JY Oh, N Sivakumar, S Shehata, N La Santa Medina, H Huang, Z Liu, W Fang, C Barnes, N Dundar, BC Jarvie, A Ravi, OK Barnhill, C Li, GR Lee, J Choi, H Jang & ZA Knight",
 		journal: "Nature",
 		year: "(2023)",
 		desc: "Before this project, the cNTS' response to ingestive feedback had never been directly observed in awake animals. Using optogenetic methods to record neural activity in mice, we discovered that signals from taste and gastrointestinal stretch can suppress appetite and promote satiety. This challenges the traditional belief that tasty food only stimulates consumption. My specific roles included performing behavioral and fiber photometry experiments, managing mouse colonies, and administering drugs to mice via injections.",
@@ -59,7 +59,7 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 				<p class="text-base mb-2"><em><strong>{journal}</strong></em> {year}</p>
 				<p>
 				  {authors.split(', ').map((author, index) => (
-					<span key={index} class={author === 'Heidi Huang' ? 'text-yellow-600 font-bold' : ''}>
+					<span key={index} class={author === 'H Huang' ? 'text-yellow-600 font-bold' : ''}>
 					  {author}{index !== authors.split(', ').length - 1 ? ', ' : ''}
 					</span>
 				  ))}

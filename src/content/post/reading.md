@@ -54,4 +54,4 @@ Books are also a compelling media form for these reasons:
 tl;dr reading is pretty cool
 
 ## Goodreads
-Find me on Goodreads [here](https://www.goodreads.com/user/show/165868055-heidi-huang). What are you reading these days? 
+Find me on Goodreads [here](https://www.goodreads.com/user/show/165868055-heidi-huang). What books do you recommend? I'd love [to know](/src/pages/contact.astro).
