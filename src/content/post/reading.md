@@ -26,7 +26,7 @@ That is not to say one should be filling every spare minute they have with conte
 
 Not falling into that trap of toxic productivity again. 
 
-So, as you can see, I developed a counterproductive mindset when I first got into audiobooks that I later had to recalibrate. But audiobooks most importantly became the gateway to my establishing reading as a *habit*. The convenience of engaging with an audiobook while doing some other activity involves much less friction than blocking out hours exclusively to sit down and read, and friction reduction is especially important during the initial phases of building any habit.
+While I developed a counterproductive mindset when I first started listening to audiobooks that I later had to adjust, audiobooks were crucial in establishing reading as a *habit*. The convenience of engaging with an audiobook while doing some other activity involves much less friction than blocking out hours exclusively to sit down and read, and friction reduction is especially important during the initial phases of building any habit.
 
 I kept listening to audiobooks, and eventually, I found myself reaching for ebooks on my phone, PDFs on a Kindle, and physical books. Initially, this was because some books, interactive or rich in diagrams and charts, aren't meant to be listened to. In any case, the medium through which I read these books was never what mattered.
 
