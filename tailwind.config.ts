@@ -53,6 +53,7 @@ export default {
 				sans: [...fontFamily.sans],
 				serif: [...fontFamily.serif],
 				inter: ['Inter', 'sans-serif'],
+				ubuntu: ['Ubuntu', 'sans-serif'],
 			},
 			transitionProperty: {
 				height: "height",
