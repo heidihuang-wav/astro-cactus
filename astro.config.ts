@@ -11,8 +11,6 @@ import remarkUnwrapImages from "remark-unwrap-images";
 import { expressiveCodeOptions } from "./src/site.config";
 import { remarkReadingTime } from "./src/utils/remark-reading-time";
 
-import '@fontsource/ubuntu';
-
 // https://astro.build/config
 export default defineConfig({
 	image: {
