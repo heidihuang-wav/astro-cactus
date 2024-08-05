@@ -54,6 +54,9 @@ export default {
 				serif: [...fontFamily.serif],
 				inter: ['Inter', 'sans-serif'],
 				ubuntu: ['Ubuntu', 'sans-serif'],
+				spectral: ['Spectral', 'serif'],
+				opensans: ['Opensans', 'sans-serif'],
+				lato: ['Lato', 'sans-serif'],
 			},
 			transitionProperty: {
 				height: "height",
