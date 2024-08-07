@@ -4,10 +4,6 @@ description: "An essay on spaced repetition"
 publishDate: "June 17 2024"
 tags: ["learning"]
 ---
-*1st draft
-
----
-
 In [this blog post](https://marginalrevolution.com/marginalrevolution/2019/07/how-i-practice-at-what-i-do.html) about deliberate practice for knowledge workers, Tyler Cowen asks:
 
 > Recently, one of my favorite questions to bug people with has been “What is it you do to train that is comparable to a pianist practicing scales?” If you don’t know the answer to that one, maybe you are doing something wrong or not doing enough. Or maybe you are (optimally?) not very ambitious?
