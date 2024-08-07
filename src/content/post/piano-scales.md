@@ -18,14 +18,14 @@ My answer to Cowen's question is **spaced repetition**.
 
 [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) is a learning technique that involves reviewing information at increasing intervals to enhance long-term memory retention. It’s akin to the pianist practicing scales—it's a deliberate method to ensure knowledge sticks.
 
-Spaced repetition is a go-to in the medical community because there's *so* much to know. Learning in medicine is often likened to drinking from a firehose—there's a lot coming at you, so studying effectively is key to mastering the vast depth and breadth of medical knowledge. I am interested in going to medical school (MD-PhD), so ever since I learned about spaced repetition through the medical community, I have been using it to study for classes and learn things outside of school.
+Spaced repetition is a go-to learning technique in the medical community because there's *so much* to know in medicine. Learning in medicine is often likened to drinking from a firehose—there's a lot coming at you, so studying effectively is key to understanding the vast depth and breadth of medical knowledge. I am interested in going to medical school (MD-PhD), so ever since I learned about spaced repetition through the medical community, I have been using it to study for classes and learn things outside of school.
 
 ## The importance of memorization
-Rote memorization isn't the most fun—I get it. For my biochemistry class, I had to memorize the chemical structures, names, 3-letter codes, and 1-letter codes for all 21 amino acids. I mainly relied on flashcards, but I also went all out, filling out my whiteboard with facts about amino acids and covering my bathroom mirror with post-it notes detailing amino acid properties and structures. Learning all this information was challenging, but knowing those details thoroughly has proven incredibly useful, especially in the lab.
+Rote memorization isn't the most fun—I get it. For my biochemistry class, I had to memorize the chemical structures, names, 3-letter codes, and 1-letter codes for all 21 amino acids. I mainly relied on flashcards, but I also went all out, filling my whiteboard with facts about amino acids and covering my bathroom mirror with post-it notes detailing amino acid properties and structures. Memorizing all this information about amino acids was challenging but has paid off in lab (e.g. when my mentor mentioned we were using arginine for an experiment, I made a connection to arginine's guanidinium group and its relevance to an experiment we were doing).
 
-Memorization might not be the most thrilling part of learning, but it's crucial for establishing connections among ideas. These connections are key for effectively applying your knowledge later on. With continued use, the information becomes ingrained and more natural to recall.
+Really taking the time to internalize information takes the most effort in the beginning, but with continued use, the information becomes ingrained and more natural to recall, and it becomes easier to establish connections among ideas.  
  
-tl;dr To apply what you learn, you need to know it inside and out.
+tl;dr To most effectively apply a piece of information, you first need to know it inside and out
 
 ## Tools for spaced repetition
 These are tools I use and find most helpful. This isn't an advertisement, and I am not sponsored. If you know of other tools that would fit into this list, please feel free to [let me know](https://heidihuang.xyz/contact), so I can credit you and add them to the list!
@@ -42,7 +42,7 @@ Anki's main benefit is its large user base, which means you are more likely to f
 - **Price:** Tiered plans
 - **Open Source:** Promised if the company winds down ([very unlikely](https://help.remnote.com/en/articles/6085006-can-i-trust-you-ll-be-around-for-the-long-haul))
 
-Remnote allows you to create flashcards directly from your notes, helping you visualize the connections between facts you're learning.   Before using Remnote, I used to take notes for my classes and then turn them into flashcards, which was time-consuming. Remnote's integrated approach of creating cards while taking notes has made my study routine much more efficient and intuitive.
+Remnote allows you to create flashcards directly from your notes, helping you visualize the connections between facts you're learning.   Before using Remnote, I used to take notes for my classes and then convert them into flashcards at a later time, which was time-consuming. Remnote's integrated approach of creating cards while taking notes has made my study routine much more efficient and intuitive.
 
 ---
 
@@ -52,7 +52,7 @@ Here are some of my favorite features from Anki and Remnote:
 - **PDF Annotation (Remnote):** This is especially helpful for reading and highlighting academic papers directly within the app.
 - **Add-ons (Anki):** Has add-ons like [Anki killstreaks](https://ankiweb.net/shared/info/1562475180) to gamify the learning process. 
 
-Ultimately, the specific app(s) you choose doesn't matter as much as *actually* doing the flashcards every day. The amount of flashcards you have can add up easily. Consistently doing them is the hard part. 
+Ultimately, the specific tool(s) you choose doesn't matter as much as *actually* doing the flashcards every day. The amount of flashcards you have can add up easily. Consistently doing them is the hard part. 
 
 ## How I use spaced repetition
 
@@ -63,7 +63,7 @@ I use spaced repetition for both school exams and personal learning. Here are so
 - **Learning Guitar Scales:** I use Anki to memorize the fretboard, which helps me learn songs faster.
 
 ## Conclusion
-Spaced repetition is versatile. By converting what you want to learn into flashcards and regularly reviewing them, you can trust that your long-term memory will retain the information.
+Spaced repetition is versatile. By converting what you want to learn into flashcards and regularly reviewing them, you can trust that your (virtually limitless) long-term memory will retain the information.
 
 With deliberate practice through spaced repetition, you can learn anything. 
 
