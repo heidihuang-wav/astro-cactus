@@ -10,12 +10,12 @@ Format: Title | Author | Rating out of 5★
 
 ## Top 3 
 ##### Being Mortal | Atul Gawande | 5★
-Has helped me initiate important conversations about death and dying with my parents and grandmother. Being in college, I often feel invincible, but this book has made me think about my values, what matters to me, and how *I* would like to die when the time comes.
+Has helped me initiate important conversations about death and dying with my parents and grandmother. Being in my early 20s, I often feel invincible, but this book has made me think about my values, what matters to me, and how *I* would like to die when the time comes.
 
 Interested in learning more about geriatrics and end-of-life care after reading this book, I watched this documentary called *[End Game](https://en.wikipedia.org/wiki/End_Game_(2018_film))* on Netflix, which I also recommend.
 
 ##### The Gene | Siddhartha Mukherjee | 5★
-Engaging, digestible, and fun overview of genetics. Loved about the historical contexts of experiments and people I had come across in textbooks and classes. 
+Engaging, digestible, and fun overview of genetics. Loved learning about the historical contexts of experiments and people I had come across in textbooks and classes. 
 
 
 ##### Bad Blood | John Carreyrou | 5★
