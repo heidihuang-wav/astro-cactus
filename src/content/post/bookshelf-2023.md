@@ -25,7 +25,7 @@ The book covers these things and more:
 * The importance of proper oversight and due diligence
 * Why *who* you know can make all the difference
 * Silicon Valley's "fake it till you make it" culture
-* The value of investigative journalism: Carreyrou's reporting was crucial in exposing the truth about Theranos.
+* The value of investigative journalism: Carreyrou's reporting helped expose the truth about Theranos
 * Ethical responsibilities in healthcare
 * The role of fear and intimidation in corporate culture
 * The consequences of prioritizing image over substance
