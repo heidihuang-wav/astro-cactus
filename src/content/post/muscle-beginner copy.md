@@ -21,16 +21,16 @@ How much is enough?
 To build muscle
 if you're just starting out - you can likely build muscle and lose fat at the same time, especially if you're starting at a higher body fat percentage. It's fine if you eat at maintenance. You don't need to do cutting and bulking cycles (that's for intermediate and advanced lifters).
 
-### Understand your caloric needs (optional)
-Counting calories is not necessary but can be helpful.
+### (optional) Understand your caloric needs
+As long as you're eating enough protein, eating intuitively otherwise should be good enough. 
 
-Use a TDEE (Total Daily Energy Expenditure) calculator as a starting point. I recommend [this one](https://www.sailrabbit.com/bmr/).
+Counting calories is not necessary but can be helpful to understand how much you're eating so that you develop an intuition for how many calories you're consuming without having to track too strictly.
+
+To understand how many calories you should be eatig, Use a TDEE (Total Daily Energy Expenditure) calculator as a starting point. I recommend [this one](https://www.sailrabbit.com/bmr/).
 
 If unsure about your activity level, try to underestimate how active you are.
 
 The number of maintenance calories the TDEE calculator gives you is just an estimate - you have to test it out yourself. Try your best to track calories and eat at maintenance according to the number the TDEE calculator gives you, and weigh yourself to make sure you're really maintaining weight. If you're gaining or losing, then adjust your calorie intake accordingly.
-
-
 
 ## Train
 
@@ -84,3 +84,5 @@ Ideally, they are "active" rest days - still be walking around and staying light
 
 ## Mindset and Motivation
 With enough consistency, the gains shall cometh.
+
+Insert Bojack jogging baboon image here.
