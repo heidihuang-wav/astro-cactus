@@ -24,7 +24,7 @@ Really taking the time to internalize information takes the most effort in the b
 tl;dr To most effectively apply a piece of information, you first need to know it inside and out
 
 ## Tools for spaced repetition
-These are tools I use and find most helpful. This isn't an advertisement, and I am not sponsored. If you know of other tools that would fit into this list, please feel free to [let me know](https://heidihuang.xyz/contact), so I can credit you and add them to the list!
+These are tools I use and find most helpful. This isn't an advertisement, and I am not sponsored. If you know of other tools that would fit into this list, please feel free to [let me know](https://heidihuang.com/contact), so I can credit you and add them to the list!
 
 ### Anki
 
