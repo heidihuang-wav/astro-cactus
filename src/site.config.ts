@@ -47,6 +47,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/contact/",
 		title: "Contact",
 	},
+	{
+		path: "https://notebook.heidihuang.com",
+		title: "Notebook 🤠",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/
