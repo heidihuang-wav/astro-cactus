@@ -47,6 +47,28 @@ export default {
 				link: "hsl(var(--theme-link) / <alpha-value>)",
 				quote: "hsl(var(--theme-quote) / <alpha-value>)",
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",
+				'mouse-gray': 'rgba(122, 122, 124, 0.918)' //landing page
+			},
+			// Add these for the animations
+			keyframes: {
+				float: {
+					'0%': { transform: 'translate3d(0, 0, 0)' },
+					'100%': { transform: 'translate3d(0, 30px, 0)' }
+				},
+				scrolling: {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(-20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(20px)'
+					}
+				}
+			},
+			animation: {
+				'float': 'float 2.5s linear infinite alternate',
+				'scroll': 'scrolling 2.5s ease-in-out infinite'
 			},
 			fontFamily: {
 				// Add any custom fonts here

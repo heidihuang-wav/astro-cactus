@@ -11,6 +11,7 @@ import '@fontsource/ubuntu';
 import '@fontsource/spectral';
 import '@fontsource-variable/open-sans';
 import '@fontsource/lato';
+import Splash from "@/components/splash.astro";
 
 interface Props {
 	meta: SiteMeta;
@@ -27,12 +28,17 @@ const {
 		<meta name="google-site-verification" content="sq871GaXHfRMH3CjZruOuQ49y-DOxWZ8lpZVllAKY2o" /> <!--don't remove this. for google search console verification -->
 	</head>
 	<body>
-		<ThemeProvider />
-		<SkipLink />
-		<Header />
-		<main id="main">
-			<slot />
-		</main>
-		<Footer />
+		<div class="splash-container">
+			<Splash />
+		</div>
+		<div class="main-content">
+			<ThemeProvider />
+			<SkipLink />
+			<Header />
+			<main id="main">
+				<slot />
+			</main>
+			<Footer />
+		</div>
 	</body>
 </html>

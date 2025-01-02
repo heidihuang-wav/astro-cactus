@@ -3,6 +3,7 @@ import SocialList from "@/components/SocialList.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, sortMDByDate } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
+import Splash from "@/components/splash.astro";
 
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
@@ -23,23 +24,23 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 <PageLayout meta={{ title: "Home" }}>
 	<section style={{ display: 'flex', alignItems: 'center' }}>
 		<div style={{ flex: 1, marginRight: '20px'  }}>
-		  <h1 class="text-[1.5rem] leading-[2rem] font-semibold mb-6 rainbow-text">Howdy, Heidi here.</h1>
-		  <p class="mb-4">
+		<h1 class="text-[1.5rem] leading-[2rem] font-semibold mb-6 rainbow-text">Hi there!</h1>
+		<p class="mb-4">
 			I'm an undergrad at UC Berkeley studying Molecular and Cell Biology with an emphasis on Molecular Therapeutics. 
 			<br>
 			<br>
 			I'm interested in drug delivery and gene therapy. Currently working on improving non-viral CRISPR delivery. 
-		  </p>
-		  <SocialList />
+		</p>
+		<SocialList />
 		</div>
 		<div style={{ flexShrink: 0 }}>
 			<div style={{ width: '175px', height: '175px', overflow: 'hidden', borderRadius: '50%' }}>
-			  <img src='hero-img.jpg' style={{ width: '110%', height: '110%', objectFit: 'cover' }} />
+			<img src='hero-img.jpg' style={{ width: '110%', height: '110%', objectFit: 'cover' }} />
 			</div>
 		</div>
-	  </section>
+	</section>
 
-	  <section class="mt-16">
+	<section class="mt-16">
 		<h2 class="title mb-4 text-2xl">Research</h2>
 		<p class="body-link mb-4">I am an undergraduate researcher at the <a href="https://www.rosswilsonlab.org/">Wilson Lab</a>, part of the <a href="https://innovativegenomics.org/">Innovative Genomics Institute (IGI)</a>. My <a href="https://research.berkeley.edu/surf-fellows/heidi-huang/">senior honors thesis</a> research, funded by the UC Berkeley Summer Undergraduate Research Fellowship, is on optimizing CRISPR RNP formulations for enhanced genome editing in the brain.</p> 
 		
@@ -51,29 +52,29 @@ const cactusTech: { title: string; href: string; authors: string; journal: strin
 		<dl class="space-y-4 mb-4">
 			{cactusTech.map(({ title, href, authors, journal, year, desc }, index) => (
 			<div class="flex flex-col gap-2" key={index}>
-			  <dt>
+			<dt>
 				<span class="flex">
-				  <a class="cactus-link" href={href} rel="noopener noreferrer" target="_blank">
+				<a class="cactus-link" href={href} rel="noopener noreferrer" target="_blank">
 					<span class="font-bold text-lg">{title}</span>
-				  </a>
+				</a>
 				</span>
-			  </dt>
-			  <dd>
+			</dt>
+			<dd>
 				<p class="text-base mb-2"><em><strong>{journal}</strong></em> {year}</p>
 				<p>
-				  {authors.split(', ').map((author, index) => (
+				{authors.split(', ').map((author, index) => (
 					<span key={index} class={author === 'H Huang' ? 'text-yellow-600 font-bold' : ''}>
-					  {author}{index !== authors.split(', ').length - 1 ? ', ' : ''}
+					{author}{index !== authors.split(', ').length - 1 ? ', ' : ''}
 					</span>
-				  ))}
+				))}
 				</p>
 				<br/>
 				<p class="text-base ml-4">{desc}</p>
-			  </dd>
+			</dd>
 			</div>
-		  ))}		  
+		))}		  
 		</dl>
-	  </section>
+	</section>
 
 		<h3 class="title mb-4 text-xl">Mentors</h3>
 			<p class="body-link mb-4">I'm deeply grateful for the following mentors:

@@ -25,6 +25,10 @@
 		--theme-quote: 102deg 100% 86%;
 	}
 
+	section.splash {
+		@apply relative h-screen bg-black;
+	}
+
 	html {
 		@apply scroll-smooth;
 	}
@@ -34,7 +38,11 @@
 	}
 
 	body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-lato text-base font-medium text-textColor antialiased;
+		@apply flex min-h-screen flex-col bg-bgColor font-lato text-base font-medium text-textColor antialiased;
+	}
+	
+	.main-content {
+		@apply mx-auto max-w-3xl px-8 pt-16;
 	}
 
 	.body-link a {
@@ -56,11 +64,22 @@
 		color: hsl(var(--theme-link));
 	}
 
+	@keyframes gradient-text {
+		0% { background-position: 0% 50%; }
+		50% { background-position: 100% 50%; }
+		100% { background-position: 0% 50%; }
+	}
+
 	@keyframes rainbow {
 		0% { background-position: 0% 50%; }
 		50% { background-position: 100% 50%; }
 		100% { background-position: 0% 50%; }
 	}
+
+	.gradient-text {
+		@apply bg-clip-text text-transparent;
+		@apply bg-gradient-to-br from-indigo-500 via-fuchsia-500 to-pink-500;
+	  }
 
 	.rainbow-text {
 		background: linear-gradient(to right, #FA8072, #a855f7, #3b82f6, #eab308);
@@ -70,8 +89,20 @@
 		background-clip: text;
 		animation: rainbow 5s linear infinite;
 	}
-
+	
 	.group:hover .invisible {
 		visibility: visible;
 	}
+
+	.splash-container {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		min-height: 100vh;  /* ensures full viewport height */
+		margin-bottom: 4rem;  /* adds bottom margin, equivalent to mb-16 */
+		z-index: 50;
+	}
+
 }
