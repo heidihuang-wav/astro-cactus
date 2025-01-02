@@ -95,16 +95,15 @@
 	}
 
 	.splash-container {
-		position: relative;
+		position: relative;  /* Change from relative to fixed */
 		top: 0;
 		left: 0;
-		right: 0;
-		bottom: 0;
-		width: 100%;
+		width: 100vw;    /* Change from % to viewport width */
 		height: 100vh;
-		min-height: 100vh;  /* ensures full viewport height */
-		margin-bottom: 4rem;  /* adds bottom margin, equivalent to mb-16 */
+		min-height: 100vh;
+		margin-bottom: 4rem;
 		z-index: 50;
+		overflow: hidden; /* Prevent any scrolling within container */
 	}
 
 }
