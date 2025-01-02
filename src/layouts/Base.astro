@@ -15,10 +15,12 @@ import Splash from "@/components/splash.astro";
 
 interface Props {
 	meta: SiteMeta;
+	showSplash?: boolean;  // Add this prop
 }
 
 const {
 	meta: { articleDate, description = siteConfig.description, ogImage, title },
+	showSplash = false,  // Default to false
 } = Astro.props;
 ---
 
@@ -28,9 +30,11 @@ const {
 		<meta name="google-site-verification" content="sq871GaXHfRMH3CjZruOuQ49y-DOxWZ8lpZVllAKY2o" /> <!--don't remove this. for google search console verification -->
 	</head>
 	<body>
-		<div class="splash-container">
-			<Splash />
-		</div>
+		{showSplash && (
+            <div class="splash-container">
+                <Splash />
+            </div>
+        )}
 		<div class="main-content">
 			<ThemeProvider />
 			<SkipLink />
