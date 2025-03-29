@@ -166,4 +166,4 @@ The field may never move at SpaceX or software speed, but it will find its own p
 ---
 Thanks to Alexey Guzey and Eryney Marrogi for reviewing drafts of this.
 
-[^1]: I understand the value of boredom and doing nothing. Over-optimizing everything in life can be counterproductive and can take the joy out of things, but I sometimes struggle to turn my brain off if I'm obsessed about something.
+[^1]: There is definitely value in boredom / doing nothing, too. 
