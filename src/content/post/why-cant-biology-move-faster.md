@@ -144,11 +144,14 @@ This capital intensity drives conservatism throughout the funding ecosystem. Ven
 
 The result is a funding environment misaligned with biology's potential for radical innovation. While tech and SpaceX embrace the "fail fast, fail often" approach, biology's funding structures treat failure as waste rather than learning. When each experiment costs thousands and each development program costs millions, the incentives inevitably favor cautious incremental progress over bold exploration.
 
+Another reason funding in biology is conservative has to do with how investors see risk. Funding biotech ideas feel like placing very large bets with uncertain outcomes because we still struggle to predict how drugs will interact with biological systems. This uncertainty means biotech often gets serious money only when there's nowhere easier to invest. If interest rates are high, investors usually put their money somewhere safer. 
+
+
 ## **What I’m looking forward to** 
 
 These emerging trends could change the pace of biological research: 
 
-* **AI modeling** (think tools like AlphaFold to predict protein structures) will hopefully reduce iteration cycles. Future models might simulate cellular processes before we run any experiment, focusing wet lab work on only the most promising approaches  
+* **AI** (like AlphaFold and EVO) will hopefully reduce iteration cycles. Future models might simulate cellular processes before we run any experiment, focusing wet lab work on only the most promising approaches  
 * 🤖 **Lab automation** increases throughput. Robotic systems can run hundreds of parallel experiments 24/7 without fatigue or variation. Despite all the talk about automation, biology labs today look and function almost the same way they did thirty years ago. We've just added fancier assay machines. The field needs serious investment of both money and talent into creating automation that works for biology's unique challenges. 
 * **Open science infrastructure**. Initiatives like Addgene (for sharing DNA constructs) and [protocols.io](http://protocols.io) (for standardized methods) create the collaborative foundations biology has lacked. Organizations like Arcadia Science are pioneering new publication models that emphasize “transparency, utility, and interactivity” ([source](https://research.arcadiascience.com/reimagining-scientific-publishing))  
 * **New funding approaches** are emerging that tolerate higher failure rates in exchange for breakthrough potential. The Arc Institute in Palo Alto, CA, for example, provides long-term, unrestricted funding that liberates scientists from grant cycles.
@@ -164,6 +167,6 @@ Biology is on the verge of something big. The convergence of computational model
 The field may never move at SpaceX or software speed, but it will find its own path to accelerated progress. 
 
 ---
-Thanks to Alexey Guzey and Eryney Marrogi for reviewing drafts of this.
+Thanks to Alexey Guzey for reading an early draft. Thanks to Eryney Marrogi for thoughtful feedback and Elliot Hershberg for insights into biotech funding dynamics.
 
-[^1]: There is definitely value in boredom / doing nothing, too. 
+[^1]: There is value in boredom / doing nothing, too. 
